@@ -1,0 +1,45 @@
+body{
+  background: radial-gradient(circle, #d5d5d5 10%, transparent 11%),radial-gradient(circle at bottom left, #d5d5d5 5%, transparent 6%),radial-gradient(circle at bottom right, #d5d5d5 5%, transparent 6%),radial-gradient(circle at top left, #d5d5d5 5%, transparent 6%),radial-gradient(circle at top right, #d5d5d5 5%, transparent 6%);
+        background-size: 3em 3em;
+        background-color: #ffffff;
+        opacity: 1;
+        height: 100vh;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-board{
+  padding: 5rem;
+  background-color: darkgray;
+  border-radius: 8px;
+}
+.typed {
+    text-decoration: underline;
+  }
+  
+  .not-typed {
+    text-decoration: none;
+  }
+  
+  .letters {
+    color: white;
+  }
+  
+  .game-typing-space{
+    padding: 1rem;
+    border: none;
+    outline: none;
+  }
+
+  .game-typing-space:focus{
+    outline: none;
+  }
+
+ 
