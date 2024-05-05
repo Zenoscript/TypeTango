@@ -6,40 +6,11 @@ body{
         height: 100vh;
 }
 
-.container{
-  width: 100vw;
-  height: 100vh;
+.game-wrapper{
+  width: 80vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 0 auto;
 }
-
-.game-board{
-  padding: 5rem;
-  background-color: darkgray;
-  border-radius: 8px;
-}
-.typed {
-    text-decoration: underline;
-  }
-  
-  .not-typed {
-    text-decoration: none;
-  }
-  
-  .letters {
-    color: white;
-  }
-  
-  .game-typing-space{
-    padding: 1rem;
-    border: none;
-    outline: none;
-  }
-
-  .game-typing-space:focus{
-    outline: none;
-  }
-
- 

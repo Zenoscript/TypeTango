@@ -1,0 +1,40 @@
+  .container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;margin: 0 auto;
+    background-color: darkgray;
+  }
+  
+  .game-board{
+    height: 100%;
+    padding: 5rem;
+    
+    border-radius: 8px;
+    
+    
+  }
+  .typed {
+      text-decoration: underline;
+    }
+    
+    .not-typed {
+      text-decoration: none;
+    }
+    
+    .letters {
+      color: white;
+    }
+    
+    .game-typing-space{
+      padding: 1rem;
+      border: none;
+      outline: none;
+    }
+  
+    .game-typing-space:focus{
+      outline: none;
+    }
+  
+   
